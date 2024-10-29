@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin: 0 0.5rem;
+}
+
+.banner {
+    background: url('https://via.placeholder.com/1920x500') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: darkorange;
+}
+
+.banner p {
+    font-size: 1.25rem;
+}
+
+.services, .products {
+    padding: 4rem 0;
+}
+
+.service, .product {
+    margin-bottom: 3rem;
+}
+
+.service img, .product img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.service h3, .product h3 {
+    font-size: 1.75rem;
+    margin-top: 1rem;
+    color: darkorange;
+}
+
+.service p, .product p {
+    font-size: 1rem;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 2rem 0;
+}
+
+footer .social-icons a {
+    /* color: white; */
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+footer .social-icons a:hover {
+    color: orange;
+}
+
+footer p {
+    margin: 1rem 0 0;
+}
+
+.card {
+    background: #f8f9fa;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-text {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.client-name {
+    color: #6c757d;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #333;
+    border-radius: 50%;
+}
+
+/* New styles for icons */
+.icon {
+    color: darkorange;
+}
